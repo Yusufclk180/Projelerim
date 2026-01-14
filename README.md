@@ -10,9 +10,6 @@ Kullanıcı 1 ile 100 arasında rastgele seçilen sayıyı tahmin etmeye çalı�
 - Kalan hak sistemi
 - HTML, CSS ve JavaScript ile geliştirilmiştir
 
-## 🖼️ Oyun Görünümü
-![Oyun Önizleme](screenshots/Ekran görüntüsü 2026-01-14 115603.png)
-
 ## 🚀 Nasıl Çalıştırılır
 1. Projeyi indirin veya klonlayın
 2. `index.html` dosyasını tarayıcıda açın
@@ -25,4 +22,5 @@ Kullanıcı 1 ile 100 arasında rastgele seçilen sayıyı tahmin etmeye çalı�
 
 ---
 👤 **Geliştirici:** Yusuf Çelik
+
 
