@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="game-card">
+            <div class="header">
+                <h1>🎯 Sayı Tahmin Oyunu</h1>
+                <p class="subtitle">1 ile 100 arasında bir sayı tuttum. Tahmin edebilir misin?</p>
+            </div>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Kalan Hak</span>
+                    <span class="stat-value" id="attempts">10</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">En İyi Skor</span>
+                    <span class="stat-value" id="bestScore">-</span>
+                </div>
+            </div>
+
+            <div class="input-section">
+                <input type="number" id="guessInput" min="1" max="100" placeholder="Tahminin..." autofocus>
+                <button id="guessBtn" onclick="makeGuess()">Tahmin Et</button>
+            </div>
+
+            <div class="message-container">
+                <p id="message" class="message"></p>
+                <div id="hint" class="hint"></div>
+            </div>
+
+            <div class="history" id="historySection" style="display: none;">
+                <h3>📝 Tahmin Geçmişi</h3>
+                <div id="historyList" class="history-list"></div>
+            </div>
+
+            <button id="restartBtn" class="restart-btn" onclick="restartGame()" style="display: none;">
+                🔄 Yeni Oyun
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
